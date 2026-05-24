@@ -210,7 +210,7 @@ const About = () => {
                     <div>
                       <h4 className="serif-text" style={{ color: 'var(--abap-gold)', fontSize: '1.1rem', marginBottom: '10px' }}>Who We Are</h4>
                       <p style={{ color: 'var(--abap-text-secondary)', lineHeight: 1.6, fontSize: '0.9rem' }}>
-                        Akhila Bharatheeya Ayyappa Dharma Prachara Sabha (ABAP) is a premier national organization with over half a century of active participation in the propagation of Ayyappa cult and socio-religious Seva activities.
+                        Akhila Bharatheeya Ayyappa Dharma Prachara Sabha (ABAP) is a premier national organization with over 25 years of active participation in the propagation of Ayyappa cult and socio-religious Seva activities.
                       </p>
                     </div>
                     
