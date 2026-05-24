@@ -55,6 +55,9 @@ h1, h2, h3, h4, .serif-text {
   text-decoration: none;
   letter-spacing: 1px;
   text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
 .public-nav.scrolled .public-nav-brand {
@@ -427,3 +430,55 @@ h1, h2, h3, h4, .serif-text {
 body { top: 0px !important; }
 .skiptranslate iframe { display: none !important; }
 #goog-gt-tt { display: none !important; }
+
+/* President Card Hover Effects */
+.president-card-hover:hover {
+  transform: translateY(-8px) rotateY(4deg) rotateX(2deg);
+  box-shadow: 0 30px 60px rgba(212, 175, 55, 0.22) !important;
+  border-color: rgba(212, 175, 55, 0.6) !important;
+}
+
+/* Custom logo styling and animations */
+.nav-logo {
+  height: 42px;
+  width: 42px;
+  object-fit: contain;
+  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.3));
+  transition: transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.public-nav.scrolled .nav-logo {
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+}
+
+.public-nav-brand:hover .nav-logo {
+  transform: scale(1.1) rotate(5deg);
+}
+
+.hero-logo-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+  animation: fadeInUp 1.5s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+.hero-logo {
+  height: 180px;
+  width: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 15px 30px rgba(212, 175, 55, 0.4));
+  animation: floatLogo 6s ease-in-out infinite;
+}
+
+@keyframes floatLogo {
+  0% { transform: translateY(0px) scale(1); }
+  50% { transform: translateY(-10px) scale(1.03); filter: drop-shadow(0 25px 40px rgba(212, 175, 55, 0.5)); }
+  100% { transform: translateY(0px) scale(1); }
+}
+
+/* Trust logo hover styles */
+.trust-logo-hover:hover {
+  transform: scale(1.05) rotate(2deg);
+  border-color: rgba(212, 175, 55, 0.6) !important;
+  box-shadow: 0 15px 35px rgba(212, 175, 55, 0.15) !important;
+}

@@ -10,6 +10,7 @@ import Landing from './pages/public/Landing';
 import Yatra from './pages/public/Yatra';
 import Seva from './pages/public/Seva';
 import Annadanam from './pages/public/Annadanam';
+import About from './pages/public/About';
 import MemberDashboard from './pages/MemberDashboard';
 import Navbar from './components/public/Navbar';
 import Footer from './components/public/Footer';
@@ -49,6 +50,7 @@ function App() {
               <Route path="yatra" element={<Yatra />} />
               <Route path="seva" element={<Seva />} />
               <Route path="annadanam" element={<Annadanam />} />
+              <Route path="about" element={<About />} />
             </Routes>
           </PublicLayout>
         } />

@@ -39,6 +39,48 @@ const Landing = () => {
 
       {/* Content Section overlaying the parallax smoothly */}
       <div style={{ position: 'relative', background: 'var(--abap-bg-primary)', zIndex: 10, paddingTop: '40px' }}>
+        
+        {/* Sacred Telugu Sloka Banner */}
+        <div style={{ 
+          maxWidth: '850px', 
+          margin: '-70px auto 50px', 
+          background: 'linear-gradient(135deg, #FFFBF2 0%, #FFF5E1 100%)', 
+          border: '1px solid rgba(212, 175, 55, 0.35)', 
+          borderRadius: '16px', 
+          padding: '30px 40px', 
+          textAlign: 'center', 
+          boxShadow: '0 20px 45px rgba(212, 175, 55, 0.15)',
+          position: 'relative',
+          zIndex: 20
+        }} className="animate-fade-in">
+          <div style={{ 
+            color: 'var(--abap-gold)', 
+            fontSize: '1.6rem', 
+            fontWeight: 700, 
+            marginBottom: '15px'
+          }}>
+            ఓం శ్రీ స్వామియే శరణం అయ్యప్ప
+          </div>
+          <p style={{ 
+            color: 'var(--abap-text-primary)', 
+            fontSize: '1.25rem', 
+            lineHeight: 1.8, 
+            marginBottom: '15px', 
+            fontStyle: 'italic', 
+            fontWeight: 500 
+          }}>
+            "ఓం శ్రీ భూతనాథ సదానంద సర్వభూత దయాపర !! రక్ష రక్ష మహాబాహు శాస్తేతుభ్యం నమో నమః!!"
+          </p>
+          <div style={{ 
+            color: 'var(--abap-text-secondary)', 
+            fontSize: '1.05rem', 
+            fontWeight: 600,
+            letterSpacing: '1px'
+          }}>
+            అఖిల భారతీయ అయ్యప్ప ధర్మ ప్రచార సభ
+          </div>
+        </div>
+
         {/* About Section */}
         <section className="section">
           <h2 className="section-title serif-text">The Path of Devotion</h2>
