@@ -19,21 +19,21 @@ const Annadanam = () => {
       <div style={{ paddingTop: '120px', minHeight: '90vh', background: 'var(--abap-bg-primary)' }}>
         <div className="section" style={{ paddingTop: '60px' }}>
           
-          {/* Sacred Telugu Header */}
+          {/* Sacred Spiritual Header */}
           <div style={{ textAlign: 'center', marginBottom: '40px' }} className="animate-fade-in">
             <h2 style={{ 
               color: 'var(--abap-gold)', 
               fontSize: '1.8rem', 
               fontWeight: 700, 
               marginBottom: '10px'
-            }}>ఓం శ్రీ స్వామియే శరణం అయ్యప్ప</h2>
+            }}>Om Sri Swamiye Saranam Ayyappa</h2>
             
             <h3 className="serif-text" style={{ 
               color: 'var(--abap-text-primary)', 
               fontSize: '1.5rem', 
               fontWeight: 700,
               marginBottom: '8px'
-            }}>అఖిల భారతీయ అయప్పధర్మ ప్రచారసభ (ABAP)</h3>
+            }}>Akhila Bharatheeya Ayyappa Dharma Prachara Sabha (ABAP)</h3>
             
             <p style={{ 
               color: 'var(--abap-text-secondary)', 
@@ -53,7 +53,7 @@ const Annadanam = () => {
               fontSize: '1.2rem',
               fontWeight: 700
             }}>
-              అన్నదాత సుఖీభవ
+              Annadata Sukhibhava
             </div>
           </div>
           
@@ -78,7 +78,7 @@ const Annadanam = () => {
                     marginBottom: '20px',
                     borderLeft: '4px solid var(--abap-saffron)',
                     paddingLeft: '15px'
-                  }}>అన్నప్రసాద వితరణ సేవకు సహకారం అందించండి</h3>
+                  }}>Support the Sacred Annaprasada Distribution Seva</h3>
                   
                   <p style={{ 
                     fontSize: '1.05rem', 
@@ -87,10 +87,10 @@ const Annadanam = () => {
                     marginBottom: '30px',
                     textAlign: 'justify'
                   }}>
-                    అయ్యప్ప స్వాములకు అన్నప్రసాద వితరణ సేవలో భాగంగా శబరిమల, ఎరుమేలి నుండి పంబ మార్గంలో 
-                    <strong> నారాయణ తోడు</strong> వద్ద ఏబీఏపీ అన్నదాన మందిరం నందు శబరిమల వెళ్ళు అయ్యప్ప స్వాములకు అన్నప్రసాద వితరణ 
-                    సేవా కార్యక్రమం నిర్వహించబడుతుంది. కావున దాతలను వినమ్రముగా ఆహ్వానిస్తున్నాం. మీ భక్తి పూర్వక 
-                    సహకారం ఈ మహా పుణ్యకార్యంలో భాగస్వామ్యం అవుతుంది.
+                    As part of the sacred Annaprasada distribution service for Ayyappa Swamis, the ABAP Annadana Mandiram at 
+                    <strong> Narayana Thodu</strong> (located on the route from Erumeli to Pamba) conducts regular free food 
+                    distribution programs for Sabarimala pilgrims. We humbly invite donors and devotees to participate in this noble cause. 
+                    Your devotional support and contributions will make you a vital part of this grand spiritual service.
                   </p>
 
                   {/* Pricing Cards */}
@@ -98,7 +98,7 @@ const Annadanam = () => {
                     color: 'var(--abap-text-primary)', 
                     fontSize: '1.2rem', 
                     marginBottom: '15px' 
-                  }}>అన్నదాన వితరణ సేవా రుసుములు:</h4>
+                  }}>Annadana Seva Sponsorship Tiers:</h4>
                   
                   <div style={{ 
                     display: 'grid', 
@@ -114,7 +114,7 @@ const Annadanam = () => {
                       border: '1px solid rgba(212, 175, 55, 0.15)',
                       textAlign: 'center'
                     }}>
-                      <p style={{ color: 'var(--abap-text-secondary)', fontWeight: 600, fontSize: '0.95rem', marginBottom: '8px' }}>పూర్తి రోజు (Full Day)</p>
+                      <p style={{ color: 'var(--abap-text-secondary)', fontWeight: 600, fontSize: '0.95rem', marginBottom: '8px' }}>Full Day Sponsorship</p>
                       <h4 className="serif-text" style={{ color: 'var(--abap-gold)', fontSize: '1.8rem', fontWeight: 700 }}>₹ 50,000</h4>
                     </div>
 
@@ -126,7 +126,7 @@ const Annadanam = () => {
                       border: '1px solid rgba(212, 175, 55, 0.15)',
                       textAlign: 'center'
                     }}>
-                      <p style={{ color: 'var(--abap-text-secondary)', fontWeight: 600, fontSize: '0.95rem', marginBottom: '8px' }}>ఒక పూట (One Meal)</p>
+                      <p style={{ color: 'var(--abap-text-secondary)', fontWeight: 600, fontSize: '0.95rem', marginBottom: '8px' }}>One Meal / Session</p>
                       <h4 className="serif-text" style={{ color: 'var(--abap-gold)', fontSize: '1.8rem', fontWeight: 700 }}>₹ 20,000</h4>
                     </div>
 
@@ -138,7 +138,7 @@ const Annadanam = () => {
                       border: '1px solid rgba(212, 175, 55, 0.15)',
                       textAlign: 'center'
                     }}>
-                      <p style={{ color: 'var(--abap-text-secondary)', fontWeight: 600, fontSize: '0.95rem', marginBottom: '8px' }}>ఉదయం అల్పాహారం (Breakfast)</p>
+                      <p style={{ color: 'var(--abap-text-secondary)', fontWeight: 600, fontSize: '0.95rem', marginBottom: '8px' }}>Morning Breakfast</p>
                       <h4 className="serif-text" style={{ color: 'var(--abap-gold)', fontSize: '1.8rem', fontWeight: 700 }}>₹ 15,000</h4>
                     </div>
 
@@ -150,7 +150,7 @@ const Annadanam = () => {
                       border: '1px solid rgba(212, 175, 55, 0.15)',
                       textAlign: 'center'
                     }}>
-                      <p style={{ color: 'var(--abap-text-secondary)', fontWeight: 600, fontSize: '0.95rem', marginBottom: '8px' }}>రాత్రి అల్పాహారం (Dinner)</p>
+                      <p style={{ color: 'var(--abap-text-secondary)', fontWeight: 600, fontSize: '0.95rem', marginBottom: '8px' }}>Night Dinner / Breakfast</p>
                       <h4 className="serif-text" style={{ color: 'var(--abap-gold)', fontSize: '1.8rem', fontWeight: 700 }}>₹ 15,000</h4>
                     </div>
                   </div>
@@ -166,7 +166,7 @@ const Annadanam = () => {
                   color: 'var(--abap-gold)',
                   fontSize: '1.15rem'
                 }}>
-                  శ్రీ అయ్యప్ప స్వామివారి కృపకు పాత్రులుకండి 🙏
+                  May Lord Ayyappa Shower His Divine Blessings Upon You 🙏
                 </div>
               </div>
               
@@ -190,7 +190,7 @@ const Annadanam = () => {
                     fontSize: '1.3rem', 
                     fontWeight: 700,
                     marginBottom: '20px'
-                  }}>Scan to Pay / సహకారం అందించండి</h3>
+                  }}>Scan to Pay / Make a Donation</h3>
                   
                   {/* QR Scanner Container */}
                   <div style={{
